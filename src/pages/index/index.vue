@@ -1,7 +1,7 @@
 <template>
 	<view class="container">
 		<web-view :src="webviewUrl"></web-view>
-		<text class="status">蓝牙连接状态: {{ isConnected ? '已连接' : '未连接' }}</text>
+		<text class="status">蓝牙连接状态!!!: {{ isConnected ? '已连接' : '未连接' }}</text>
 		<text class="data">蓝牙数据!!!: {{ bluetoothData }}</text>
 		<!-- <CustomModal :show="showModal" :devices="devices" @select="handleSelect"></CustomModal> -->
 	</view>
